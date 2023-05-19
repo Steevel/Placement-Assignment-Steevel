@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+
+main {
+  padding: 1em;
+  gap: 0.5em;
+}
+header {
+  color: #fff;
+  background-color: teal;
+  padding: 1em;
+  text-align: center;
+  font-size: 28px;
+}
+
+.container {
+  display: flex;
+  column-gap: 1em;
+  margin-top: 1em;
+}
+
+aside {
+  color: #fff;
+  background-color: springgreen;
+  width: 25%;
+  height: 80vh;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  color: #fff;
+  background-color: tomato;
+  font-size: 20px;
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 1em;
+  width: 100%;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  width: 30%;
+  height: 30vh;
+}
