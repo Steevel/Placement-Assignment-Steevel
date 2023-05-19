@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      margin: 2em auto;
+      width: 60%;
+    }
+
+    .name,
+    .role {
+      text-align: center;
+    }
+
+    .details {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 426px) {
+      .container {
+        width: 90%;
+      }
+
+      .details {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width:769px) {
+      .details {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width:1024px) {
+      .container {
+        width: 90%;
+      }
+    }
+  </style>
+  <title>Question 4</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 class="name">Steevel Sharon Salis</h1>
+    <p class="role"><em>Frontend Javascript Developer</em></p>
+
+    <!-- Contact -->
+    <div class="details">
+      <em class="">Email: steevelsalis@gmail.com</em>
+      <em class="">Phone: +91 9108145799</em>
+      <em class="">Location: Mangaluru</em>
+      <em class="">LinkedIn: <a href="https://www.linkedin.com/in/steevelsalis/">steevelsalis</a></em>
+    </div>
+    <hr>
+
+    <!-- SUMMARY -->
+    <section>
+      <h3>Summary</h3>
+      <p>Seeking an entry-level Front end Engineer position where I can leverage my strong foundation in HTML,CSS,
+        JavaScript and React.js to create engaging and user-friendly web
+        applications. Passionate about creating seamless user experiences and staying updated with the latest web
+        development trends. Eager to contribute to a dynamic team and continue learning and grow</p>
+    </section>
+    <hr>
+
+    <!-- Experience -->
+    <section>
+      <h3>Experience:</h3>
+      <div><strong>Test Engineer</strong></div>
+      <em>LTIMindtree</em>
+      <div>August 2021 - March 2023</div>
+    </section>
+    <hr>
+
+    <!-- Skills -->
+    <section>
+      <h3>Skills</h3>
+      <div class="skills">
+        <div>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>React.js</li>
+            <li>Redux</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Express.js</li>
+            <li>Node.js</li>
+            <li>Git/GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- Projects -->
+    <section>
+      <h3>Projects</h3>
+      <div>
+        <strong>MovieMark</strong>
+        <p>
+          <a href="https://github.com/Steevel/MovieMark">GitHub Repo</a>
+          <span>|</span>
+          <a href="https://moviemark.netlify.app/">Live Site</a>
+        </p>
+        <ul>
+          <li>Developed a web application using React that retrieves information about movies from an external API
+          </li>
+          <li>Users can search for specific movies, view films based on genres,
+            and receive detailed information on each movie
+          </li>
+          <li>The project uses Redux Toolkit for efficient state management
+            and RTK Query to handle API calls, enabling fast retrieval of
+            movie information based on user input</li>
+        </ul>
+      </div>
+      <div>
+        <strong>Tasklist App (MERN)
+        </strong>
+        <p>
+          <a href="https://github.com/Steevel/Todo-List">GitHub Repo</a>
+          <span>|</span>
+          <a href="https://tasklist-mern.netlify.app/">Live Site</a>
+        </p>
+        <ul>
+          <li>This full-stack application allows users to easily organize, track
+            and manage their tasks.</li>
+          <li>UI is developed using React with various hooks and state management. Styling is done using core Tailwind
+            CSS</li>
+          <li>The back-end is developed using Express js and MongoDB is
+            used as the database
+          </li>
+        </ul>
+      </div>
+      <div>
+        <strong>Repo Hunt</strong>
+        <p>
+          <a href="https://github.com/Steevel/githubusers">GitHub Repo</a>
+          <span>|</span>
+          <a href="https://repo-hunt.netlify.app/signin">Live Site</a>
+        </p>
+        <ul>
+          <li>Using this responsive web application we can search for GitHub
+            users and fetch information about their repositories using GitHub
+            API</li>
+          <li>Bootstrap is used to develop the responsive UI of this application</li>
+          <li>Firebase is used for authenticating the users using email and
+            password
+          </li>
+        </ul>
+      </div>
+    </section>
+    <hr>
+
+    <!-- Education -->
+    <section>
+      <h3>Education</h3>
+      <div><strong>Bachelor of Engineering</strong></div>
+      <em>August 2017 - August 2021</em>
+      <div>Visvesvaraya Technological University (VTU)</div>
+    </section>
+    <hr>
+  </div>
+</body>
+
+</html>
