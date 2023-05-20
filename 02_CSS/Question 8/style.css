@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+table {
+  border-spacing: 9px;
+}
+
+.group-one {
+  background-color: lightcoral;
+  border: 1px solid black;
+  padding: 2px 12px;
+}
+
+.group-two {
+  background-color: lightskyblue;
+  border: 1px solid black;
+  padding: 2px 12px;
+}
+
+.group-three {
+  background-color: rgba(255, 255, 0, 0.47);
+  border: 1px solid black;
+  padding: 2px 12px;
+}
+
+.group-four {
+  background-color: lightgreen;
+  border: 1px solid black;
+  padding: 2px 12px;
+}
